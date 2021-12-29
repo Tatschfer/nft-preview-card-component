@@ -1,0 +1,181 @@
+body {
+    background-color:hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Outfit&display=swap);
+}
+
+.image{
+    background-image: url('images/image-equilibrium.jpg');
+    background-size: cover;
+    width: 94%;
+    height: 100%;
+    border-radius: 4%;
+    align-self: center;
+    margin-top: 4%;
+}
+
+.icon{
+    background-image: url('images/icon-view.svg');
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    align-self: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    opacity: 0;
+}
+
+.image:hover{
+    background:linear-gradient(rgba(0,255,247,.50),rgba(0, 255, 247, .50)100%), url('images/image-equilibrium.jpg');
+    background-size: cover;
+}
+
+.image:hover .icon{
+    opacity:1
+}
+
+.container{
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction:column;
+    box-shadow: 0 0 1em black;
+    background-color: hsl(216, 50%, 16%);
+    
+    width: 260px;
+    height: 445px;
+    border-radius: 1em;
+    padding: 5px;
+}
+
+.bgBox{
+    width: 260px;
+    height: 270px;
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.bgBox:hover{
+    background:hsla(178, 100%, 50%, 0.753)
+
+}
+
+.title{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 13px;
+    cursor:pointer;
+}
+
+.title:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.subtitle{
+    margin-top: -18px;
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.ethereum{
+    color:hsl(178, 100%, 50%);
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.eth{
+    margin-right: 162px;
+    margin-top: -15px;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.simbol{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+}
+
+.hour{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 90px;
+    margin-top:-30px;
+    margin-left: 12px;
+}
+
+.three{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -28px;
+    margin-right: 25px;
+    float: right;
+    
+}
+
+.creation{
+    margin-left: 10px;
+    
+}
+
+.avatar{
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    border: white solid 1px;
+    border-radius: 30px;
+    margin-right: 100px;
+}
+
+.textCrea{
+    float: right;
+    margin-top: -25px;
+    margin-right: 150px;
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+}
+
+.jules{
+    font-weight: bold;
+    float: right;
+    margin-top: -25px;
+    margin-right: 67px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.jules:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution{
+    position:relative;
+    left: 50%;
+    margin-top: 1%;
+    color: white;
+    font-size: 10px;
+
+}
+
+hr{
+    height: 0.5px;
+    width: 240px;
+    background-color: rgba(255, 255, 255, 0.030);
+    border: 0.5px solid rgba(255, 255, 255, 0.030);
+    
+    
+}
+

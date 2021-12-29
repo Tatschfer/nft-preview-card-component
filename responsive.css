@@ -1,0 +1,17 @@
+@media (min-width:200px) and (max-width: 800px){
+    .container{
+        margin-left: auto;
+        
+}
+
+}
+
+
+@media (min-width:200px) and (max-width: 800px){
+
+.attribution{
+    position:relative;
+    left: 10px;
+}
+
+}
